@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class AreaR{
+public static void main(String[] args){
+Scanner s = new Scanner(System.in);
+System.out.println("enter the Length:");
+int L = s.nextInt();
+System.out.println("enter the Breadth:");
+int B = s.nextInt();
+int sum = L*B;
+System.out.println("The area of Rectangle is :"+ sum);
+s.close();
+}
+}
