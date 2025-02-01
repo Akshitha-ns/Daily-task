@@ -1,0 +1,39 @@
+Next( ) Method :
+
+	Reads the input from the user util any whitespace given .
+	It stops reading when a whitespace is given .
+	Used for reading a Single word or Character .
+
+Example :
+import java.util.Scanner;
+public class NextMethodExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String firstName = scanner.next(); 
+        System.out.println("HI,"+ firstName);
+        scanner.close();
+    }
+}
+
+
+
+NextLine( ) Method :
+	Reads the input from the user .
+	Reads the entire line including white spaces .
+	Reads until the newline (Enter) key is pressed .
+	Used for reading a full line or full String .
+ 
+
+Example :
+import java.util.Scanner;
+public class NextMethodExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Tell about Yourself: ");
+        String selfin = scanner.nextLine(); 
+        System.out.println("Good morning"+ selfin);
+        scanner.close();
+    }
+}
+    
