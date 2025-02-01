@@ -10,4 +10,4 @@ int sum = L*B;
 System.out.println("The area of Rectangle is :"+ sum);
 s.close();
 }
-}
+}             
