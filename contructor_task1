@@ -1,7 +1,9 @@
 public class person {
 		String Name;
 		int age;
-		public void introduce(String Name) {
+		public void introduce(String Name,int age) {
+		System.out.println("Name: "+Name);
+		System.out.println("Age: "+age);
 		System.out.println("Welcome " + Name);
 }
 		public static void main(String[]args) {
