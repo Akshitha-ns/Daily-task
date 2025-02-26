@@ -1,0 +1,11 @@
+public class person {
+		String Name;
+		int age;
+		public void introduce(String Name) {
+		System.out.println("Welcome " + Name);
+}
+		public static void main(String[]args) {
+			person p = new person();
+			p.introduce("Shamini");
+		}
+}
