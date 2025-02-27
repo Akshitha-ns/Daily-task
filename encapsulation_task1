@@ -1,0 +1,19 @@
+public class Employee {
+	private  int id;
+	private  int salary;
+	public void setSalary(int mysalary) {
+		this.salary = mysalary;
+	}
+	public int getSalary() {
+		return salary;
+	}
+public static void main(String[]args) {
+	Employee e = new Employee();
+	e.setSalary(15000);
+	 if (e.getSalary() <10000) {
+	     System.out.println("Salary is less then mininum value");	
+	} else {
+	     System.out.println(e.getSalary());
+	}
+}
+}
