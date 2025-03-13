@@ -5,7 +5,7 @@ this.model = model;
 }
 public class Processor {
 private int cores ;
-public processor(int cores){
+public Processor(int cores){
 this.cores = cores ;
 }
 public void display(){
@@ -27,9 +27,20 @@ Localinner l = new Localinner("this is local class");
 l.display();
 }
 }
-public class Main{
-public static void main(String[]args){
+public class Main1 {
+public static void main(String[] args) {
 Computer c = new Computer("Mac");
-computer
+Computer.Processor p = c.new Processor(8);
+p.display();
+c.displayDetails();
+Runnable a = new Runnable() {
+@Override
+public void run() {
+System.out.println("Anonymous Inner Class is running");
+}
+};
+a.run();
+}
+}}
 
 
